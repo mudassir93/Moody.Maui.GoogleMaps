@@ -10,12 +10,12 @@
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageId>Moody.Maui.GoogleMaps</PackageId>
 		<Title>Moody.Maui.GoogleMaps</Title>
-		<PackageVersion>6.2.0</PackageVersion>
+		<PackageVersion>1.0.0</PackageVersion>
 		<PackageReleaseNotes>
 # 1.0.0
 - Added Pin Animation		</PackageReleaseNotes>
 		<Authors>Moody</Authors>
-		<Copyright>Copyright 2022-2025</Copyright>
+		<Copyright>Copyright 2025</Copyright>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageIcon>logo.png</PackageIcon>
@@ -26,6 +26,8 @@
 
 Added Translate and Rotate Animation for Pin to smoothly move on the map</Description>
 		<PackageTags>maui maps mauimaps maui.maps mauigooglemaps maui.googlemaps google googlemap</PackageTags>
+		<Version>1.0.0</Version>
+		<Company>Moody</Company>
 	</PropertyGroup>
 
 	<ItemGroup>
