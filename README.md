@@ -1,6 +1,6 @@
-## ![Logo](https://raw.githubusercontent.com/mudassir93/Moody.Maui.GoogleMaps/maui/lib/Maui.GoogleMaps/logo.png) Moody.Maui.GoogleMaps 
+## ![Logo](https://raw.githubusercontent.com/mudassir93/Onion.Maui.GoogleMaps/maui/lib/Maui.GoogleMaps/logo.png) Moody.Maui.GoogleMaps 
 
-[![NuGet](https://img.shields.io/nuget/v/Moody.Maui.GoogleMaps.svg?label=NuGet)](https://www.nuget.org/packages/Moody.Maui.GoogleMaps/) ![](https://img.shields.io/nuget/dt/Moody.Maui.GoogleMaps.svg)
+[![NuGet](https://img.shields.io/nuget/v/Moody.Maui.GoogleMaps.svg?label=NuGet)](https://www.nuget.org/packages/Moody.Maui.GoogleMaps/) 
 
 Maps library for MAUI that uses Google maps on both mobile platforms - Android and iOS.
 
