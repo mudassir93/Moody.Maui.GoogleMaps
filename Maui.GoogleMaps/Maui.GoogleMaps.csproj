@@ -12,17 +12,15 @@
 		<Title>Moody.Maui.GoogleMaps</Title>
 		<PackageVersion>6.2.0</PackageVersion>
 		<PackageReleaseNotes>
-# 6.2.0
-- Updated dependencies and migrated to net9.0
-- Bug fixes
-		</PackageReleaseNotes>
+# 1.0.0
+- Added Pin Animation		</PackageReleaseNotes>
 		<Authors>Moody</Authors>
 		<Copyright>Copyright 2022-2025</Copyright>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageIcon>logo.png</PackageIcon>
-		<RepositoryUrl>https://github.com/themronion/Maui.GoogleMaps</RepositoryUrl>
-		<PackageProjectUrl>https://github.com/themronion/Maui.GoogleMaps</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/mudassir93/Moody.Maui.GoogleMaps</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/mudassir93/Moody.Maui.GoogleMaps</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
 		<Description>Maps library for MAUI that is optimized for Google maps.
 
@@ -31,7 +29,7 @@ Added Translate and Rotate Animation for Pin to smoothly move on the map</Descri
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Include="..\..\LICENSE.txt" Pack="True" PackagePath="" />
+		<None Include="..\LICENSE.txt" Pack="True" PackagePath="" />
 		<None Include="..\README.md" Pack="True" PackagePath="" />
 		<None Include="..\logo.png" Pack="True" PackagePath="" />
 	</ItemGroup>

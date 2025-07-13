@@ -22,7 +22,9 @@ namespace MauiGoogleMapSample
                     Position = new Position(35.71d, 139.81d),
                     Rotation = 33.3f,
                     Tag = "id_tokyo",
-                    IsVisible = switchIsVisibleTokyo.IsToggled
+                    IsVisible = switchIsVisibleTokyo.IsToggled,
+                    TranslateAnimation = 2.5f,
+                    RotateAnimation = 2.5f
                 };
 
                 map.Pins.Add(pinTokyo);

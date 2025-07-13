@@ -56,6 +56,22 @@ public static MauiApp CreateMauiApp()
 }
 ```
 
+If you want to animate Pin on the Map like UBER or other Tracking Apps you can use the below extension method:
+```csharp
+
+pinTokyo = new Pin()
+{
+    Type = PinType.Place,
+    Label = "Tokyo SKYTREE",
+    Address = "Sumida-ku, Tokyo, Japan",
+    Position = new Position(35.71d, 139.81d),
+    Rotation = 33.3f,
+    Tag = "id_tokyo",
+    IsVisible = switchIsVisibleTokyo.IsToggled,
+    TranslateAnimation = 2.5f,  //this is the time in seconds for the pin to translate to new position
+    RotateAnimation = 2.5f      //this is the time in seconds for the pin to rotate to new angle
+};
+```
 If you need clustering, install [![NuGet](https://img.shields.io/nuget/v/Onion.Maui.GoogleMaps.svg?label=Onion.Maui.GoogleMaps.Clustering)](https://www.nuget.org/packages/Onion.Maui.GoogleMaps.Clustering/) and add this line:
 ```csharp
 builder.UseGoogleMapsClustering();
