@@ -1,6 +1,6 @@
-## ![Logo](https://raw.githubusercontent.com/themronion/Maui.GoogleMaps/maui/lib/Maui.GoogleMaps/logo.png) Moody.Maui.GoogleMaps 
+## ![Logo](https://raw.githubusercontent.com/mudassir93/Moody.Maui.GoogleMaps/maui/lib/Maui.GoogleMaps/logo.png) Moody.Maui.GoogleMaps 
 
-[![NuGet](https://img.shields.io/nuget/v/Moody.Maui.GoogleMaps.svg?label=NuGet)](https://www.nuget.org/packages/Onion.Maui.GoogleMaps/) ![](https://img.shields.io/nuget/dt/Moody.Maui.GoogleMaps.svg)
+[![NuGet](https://img.shields.io/nuget/v/Moody.Maui.GoogleMaps.svg?label=NuGet)](https://www.nuget.org/packages/Moody.Maui.GoogleMaps/) ![](https://img.shields.io/nuget/dt/Moody.Maui.GoogleMaps.svg)
 
 Maps library for MAUI that uses Google maps on both mobile platforms - Android and iOS.
 
@@ -17,7 +17,7 @@ Usage is almost the same as [Xamarin.Forms.GoogleMaps - github](https://github.c
 
 ## Setup
 * Target .NET 9 for best experience
-* Install into your MAUI project by downloading the library from nuget: [![NuGet](https://img.shields.io/nuget/v/Onion.Maui.GoogleMaps.svg?label=NuGet)](https://www.nuget.org/packages/Onion.Maui.GoogleMaps/)
+* Install into your MAUI project by downloading the library from nuget: [![NuGet](https://img.shields.io/nuget/v/Moody.Maui.GoogleMaps.svg?label=NuGet)](https://www.nuget.org/packages/Moody.Maui.GoogleMaps/)
 * Finish the [Google Cloud Console setup](https://developers.google.com/maps/get-started#create-project)
 * Get your API Keys from Google, then in Platforms/Android: 
 
