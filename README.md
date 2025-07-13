@@ -1,4 +1,4 @@
-## ![Logo](https://raw.githubusercontent.com/mudassir93/Onion.Maui.GoogleMaps/maui/lib/Maui.GoogleMaps/logo.png) Moody.Maui.GoogleMaps 
+## ![Logo](https://raw.githubusercontent.com/themronion/Maui.GoogleMaps/maui/lib/Maui.GoogleMaps/logo.png) Moody.Maui.GoogleMaps 
 
 [![NuGet](https://img.shields.io/nuget/v/Moody.Maui.GoogleMaps.svg?label=NuGet)](https://www.nuget.org/packages/Moody.Maui.GoogleMaps/) 
 

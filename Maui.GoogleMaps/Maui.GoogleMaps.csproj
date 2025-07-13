@@ -1,16 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net9.0;net9.0-android;net9.0-ios</TargetFrameworks>
+		<TargetFrameworks>net8.0;net8.0-android;net8.0-ios</TargetFrameworks>
 		<UseMaui>true</UseMaui>
 		<SingleProject>true</SingleProject>
 		<ImplicitUsings>enable</ImplicitUsings>
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">15.0</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">14.0</SupportedOSPlatformVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageId>Moody.Maui.GoogleMaps</PackageId>
 		<Title>Moody.Maui.GoogleMaps</Title>
-		<PackageVersion>1.0.0</PackageVersion>
+		<PackageVersion>1.1.0</PackageVersion>
 		<PackageReleaseNotes>
 # 1.0.0
 - Added Pin Animation		</PackageReleaseNotes>
@@ -26,8 +26,10 @@
 
 Added Translate and Rotate Animation for Pin to smoothly move on the map</Description>
 		<PackageTags>maui maps mauimaps maui.maps mauigooglemaps maui.googlemaps google googlemap</PackageTags>
-		<Version>1.0.0</Version>
+		<Version>1.1.0</Version>
 		<Company>Moody</Company>
+		<AssemblyVersion>1.1.0</AssemblyVersion>
+		<FileVersion>1.1.0</FileVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -37,16 +39,20 @@ Added Translate and Rotate Animation for Pin to smoothly move on the map</Descri
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Maui.Controls" Version="9.0.82" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.100" />
 	</ItemGroup>
 
-	<ItemGroup Condition="'$(TargetFramework)' == 'net9.0-android'">
+	<ItemGroup Condition="'$(TargetFramework)' == 'net8.0-android'">
 		<PackageReference Include="Xamarin.GooglePlayServices.Maps" Version="119.2.0.2" />
 	</ItemGroup>
 
-	<ItemGroup Condition="'$(TargetFramework)' == 'net9.0-ios'">
+	<ItemGroup Condition="'$(TargetFramework)' == 'net8.0-ios'">
 	  <PackageReference Include="AdamE.Google.iOS.Maps" Version="9.2.0.5" />
 	  <PackageReference Include="Xamarin.Build.Download" Version="0.11.4" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Update="Microsoft.Maui.Controls.Compatibility" Version="9.0.82" />
 	</ItemGroup>
 
 </Project>
